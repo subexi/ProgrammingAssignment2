@@ -1,6 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-<<<<<<< HEAD
+
 ## The functions create a list which contains other functions to store and
 ## retrieve a calculated result of an inverse of a matrix in a cache.
 ## In case the result of a specific matrix was not cached before, the inverse
@@ -21,18 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set = set, get = get,
     setsolve = setsolve,
     getsolve = getsolve)
-=======
-
-## Write a short comment describing this function
-
-makeCacheMatrix <- function(x = matrix()) {
-
->>>>>>> origin/master
 }
 
-
 ## Write a short comment describing this function
-<<<<<<< HEAD
 ## This function computes the inverse of the special matrix or retrieves
 ## is from the cache if already available in the cache
 
@@ -47,9 +38,4 @@ cacheSolve <- function(x, ...) {
         m <- solve(data, ...)
         x$setsolve(m)
         m
-=======
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
->>>>>>> origin/master
 }
